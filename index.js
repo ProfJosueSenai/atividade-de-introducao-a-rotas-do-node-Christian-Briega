@@ -12,7 +12,7 @@ const server = http.createServer((req, res) => {
     //Aqui vão as Rotas
     if(url === '/') {
         res.writeHead(200,'ok',{ 'Content-Type': 'text/html; charset=utf-8' }) 
-        res.end('<h1>Supermercado Pague Mais</ul>');
+        res.end('<h1>Mercadinho da Juju</ul>');
     } 
     else if(url === '/verduras'){ //nova rota acrescentada
         res.writeHead(200,'ok',{ 'Content-Type': 'text/html; charset=utf-8' }) 
